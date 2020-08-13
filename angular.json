@@ -123,6 +123,10 @@
               "devServerTarget": "covid19-tracker:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
